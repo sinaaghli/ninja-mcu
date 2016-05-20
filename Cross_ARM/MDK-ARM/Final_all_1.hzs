@@ -1,0 +1,85 @@
+<!DOCTYPE CrossStudio_Session_File>
+<session>
+ <Bookmarks/>
+ <Breakpoints/>
+ <ExecutionProfileWindow/>
+ <FrameBufferWindow>
+  <FrameBufferWindow addressText="" bufferWidth="-1" bufferHeight="-1" addressSpace="" />
+ </FrameBufferWindow>
+ <Memory1>
+  <MemoryWindow autoEvaluate="0" addressText="" numColumns="8" sizeText="" dataSize="1" radix="16" name="Final_all_1 Configuration" addressSpace="" />
+ </Memory1>
+ <Memory2>
+  <MemoryWindow autoEvaluate="0" addressText="" numColumns="8" sizeText="" dataSize="1" radix="16" name="Final_all_1 Configuration" addressSpace="" />
+ </Memory2>
+ <Memory3>
+  <MemoryWindow autoEvaluate="0" addressText="" numColumns="8" sizeText="" dataSize="1" radix="16" name="Final_all_1 Configuration" addressSpace="" />
+ </Memory3>
+ <Memory4>
+  <MemoryWindow autoEvaluate="0" addressText="" numColumns="8" sizeText="" dataSize="1" radix="16" name="Final_all_1 Configuration" addressSpace="" />
+ </Memory4>
+ <Project>
+  <ProjectSessionItem path="Final_all_1" name="unnamed" />
+  <ProjectSessionItem path="Final_all_1;Final_all_1 Configuration" name="unnamed" />
+  <ProjectSessionItem path="Final_all_1;Final_all_1 Configuration;Source Files" name="unnamed" />
+  <ProjectSessionItem path="Final_all_1;Final_all_1 Configuration;Source Files;Application/User" name="unnamed" />
+  <ProjectSessionItem path="Final_all_1;Final_all_1 Configuration;Source Files;Drivers/STM32F2xx_HAL_Driver" name="unnamed" />
+ </Project>
+ <Register1>
+  <RegisterWindow openNodes="CPU - Current Context" binaryNodes="" unsignedNodes="" decimalNodes="" octalNodes="" asciiNodes="" visibleNodes="CPU - Current Context/r0;CPU - Current Context/r1;CPU - Current Context/r2;CPU - Current Context/r3;CPU - Current Context/r4;CPU - Current Context/r5;CPU - Current Context/r6;CPU - Current Context/r7;CPU - Current Context/r8;CPU - Current Context/r9;CPU - Current Context/r10;CPU - Current Context/r11;CPU - Current Context/r12;CPU - Current Context/sp(r13);CPU - Current Context/lr(r14);CPU - Current Context/pc(r15);CPU - Current Context/apsr;CPU/r0;CPU/r1;CPU/r2;CPU/r3;CPU/r4;CPU/r5;CPU/r6;CPU/r7;CPU/r8;CPU/r9;CPU/r10;CPU/r11;CPU/r12;CPU/sp(r13);CPU/lr(r14);CPU/pc(r15);CPU/xpsr;CPU/msp;CPU/psp;CPU/cfbp" name="Final_all_1 Configuration" />
+ </Register1>
+ <Register2>
+  <RegisterWindow openNodes="CPU - Current Context" binaryNodes="" unsignedNodes="" decimalNodes="" octalNodes="" asciiNodes="" visibleNodes="CPU - Current Context/r0;CPU - Current Context/r1;CPU - Current Context/r2;CPU - Current Context/r3;CPU - Current Context/r4;CPU - Current Context/r5;CPU - Current Context/r6;CPU - Current Context/r7;CPU - Current Context/r8;CPU - Current Context/r9;CPU - Current Context/r10;CPU - Current Context/r11;CPU - Current Context/r12;CPU - Current Context/sp(r13);CPU - Current Context/lr(r14);CPU - Current Context/pc(r15);CPU - Current Context/apsr;CPU/r0;CPU/r1;CPU/r2;CPU/r3;CPU/r4;CPU/r5;CPU/r6;CPU/r7;CPU/r8;CPU/r9;CPU/r10;CPU/r11;CPU/r12;CPU/sp(r13);CPU/lr(r14);CPU/pc(r15);CPU/xpsr;CPU/msp;CPU/psp;CPU/cfbp" name="Final_all_1 Configuration" />
+ </Register2>
+ <Register3>
+  <RegisterWindow openNodes="CPU - Current Context" binaryNodes="" unsignedNodes="" decimalNodes="" octalNodes="" asciiNodes="" visibleNodes="CPU - Current Context/r0;CPU - Current Context/r1;CPU - Current Context/r2;CPU - Current Context/r3;CPU - Current Context/r4;CPU - Current Context/r5;CPU - Current Context/r6;CPU - Current Context/r7;CPU - Current Context/r8;CPU - Current Context/r9;CPU - Current Context/r10;CPU - Current Context/r11;CPU - Current Context/r12;CPU - Current Context/sp(r13);CPU - Current Context/lr(r14);CPU - Current Context/pc(r15);CPU - Current Context/apsr;CPU/r0;CPU/r1;CPU/r2;CPU/r3;CPU/r4;CPU/r5;CPU/r6;CPU/r7;CPU/r8;CPU/r9;CPU/r10;CPU/r11;CPU/r12;CPU/sp(r13);CPU/lr(r14);CPU/pc(r15);CPU/xpsr;CPU/msp;CPU/psp;CPU/cfbp" name="Final_all_1 Configuration" />
+ </Register3>
+ <Register4>
+  <RegisterWindow openNodes="CPU - Current Context" binaryNodes="" unsignedNodes="" decimalNodes="" octalNodes="" asciiNodes="" visibleNodes="CPU - Current Context/r0;CPU - Current Context/r1;CPU - Current Context/r2;CPU - Current Context/r3;CPU - Current Context/r4;CPU - Current Context/r5;CPU - Current Context/r6;CPU - Current Context/r7;CPU - Current Context/r8;CPU - Current Context/r9;CPU - Current Context/r10;CPU - Current Context/r11;CPU - Current Context/r12;CPU - Current Context/sp(r13);CPU - Current Context/lr(r14);CPU - Current Context/pc(r15);CPU - Current Context/apsr;CPU/r0;CPU/r1;CPU/r2;CPU/r3;CPU/r4;CPU/r5;CPU/r6;CPU/r7;CPU/r8;CPU/r9;CPU/r10;CPU/r11;CPU/r12;CPU/sp(r13);CPU/lr(r14);CPU/pc(r15);CPU/xpsr;CPU/msp;CPU/psp;CPU/cfbp" name="Final_all_1 Configuration" />
+ </Register4>
+ <TargetWindow programAction="" uploadFileType="" programLoadAddress="" programSize="" uploadFileName="" uploadMemoryInterface="" programFileName="" uploadStartAddress="" programFileType="" uploadSize="" programMemoryInterface="" />
+ <TraceWindow>
+  <Trace enabled="Yes" />
+ </TraceWindow>
+ <Watch1>
+  <Watches active="1" update="Never" >
+   <Watchpoint linenumber="185" radix="-1" name="count_packet" expression="count_packet" filename="F:/workspace_crossarm/ST_cube/Final_all_1/Cross_ARM/Src/main.c" />
+   <Watchpoint linenumber="426" radix="-1" name="i2c_id" expression="i2c_id" filename="F:/workspace_crossarm/ST_cube/Final_all_1/Cross_ARM/Src/main.c" />
+   <Watchpoint linenumber="170" radix="-1" name="packet_current" expression="packet_current" filename="F:/workspace_crossarm/ST_cube/Final_all_1/Cross_ARM/Src/main.c" />
+   <Watchpoint evalMode="2" linenumber="455" numelements="7" evalType="0" radix="-1" name="adc_values" expression="adc_values" filename="F:/workspace_crossarm/ST_cube/Final_all_1/Cross_ARM/Src/main.c" />
+   <Watchpoint linenumber="450" radix="-1" name="recev" expression="recev" filename="F:/workspace_crossarm/ST_cube/Final_all_1/Cross_ARM/Src/main.c" />
+   <Watchpoint evalMode="2" linenumber="150" numelements="6" evalType="0" radix="-1" name="imu_data" expression="imu_data" filename="F:/workspace_crossarm/ST_cube/Final_all_1/Cross_ARM/Src/main.c" />
+   <Watchpoint evalMode="2" linenumber="183" numelements="57" evalType="0" radix="-1" name="packet" expression="packet" filename="F:/workspace_crossarm/ST_cube/Final_all_1/Cross_ARM/Src/main.c" />
+   <Watchpoint linenumber="185" radix="-1" name="packet_size" expression="packet_size" filename="F:/workspace_crossarm/ST_cube/Final_all_1/Cross_ARM/Src/main.c" />
+   <Watchpoint evalMode="2" linenumber="154" numelements="6" evalType="0" radix="-1" name="gyro_data" expression="gyro_data" filename="F:/workspace_crossarm/ST_cube/Final_all_1/Cross_ARM/Src/main.c" />
+   <Watchpoint evalMode="2" linenumber="151" numelements="6" evalType="0" radix="-1" name="accel_data" expression="accel_data" filename="F:/workspace_crossarm/ST_cube/Final_all_1/Cross_ARM/Src/main.c" />
+   <Watchpoint linenumber="912" radix="16" name="Size" expression="Size" filename="F:/workspace_crossarm/ST_cube/Final_all_1/Cross_ARM/Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_uart.c" />
+  </Watches>
+ </Watch1>
+ <Watch2>
+  <Watches active="0" update="Never" />
+ </Watch2>
+ <Watch3>
+  <Watches active="0" update="Never" />
+ </Watch3>
+ <Watch4>
+  <Watches active="0" update="Never" />
+ </Watch4>
+ <Files>
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Default" x="3" debugPath="F:/workspace_crossarm/ST_cube/Final_all_1/Cross_ARM/Src/main.c" y="192" path="F:/workspace_crossarm/ST_cube/Final_all_1/Cross_ARM/Src/main.c" left="0" selected="1" name="unnamed" top="195" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Default" x="0" debugPath="F:/workspace_crossarm/ST_cube/Final_all_1/Cross_ARM/Src/adc.c" y="0" path="F:/workspace_crossarm/ST_cube/Final_all_1/Cross_ARM/Src/adc.c" left="0" selected="0" name="unnamed" top="0" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Default" x="0" debugPath="F:/workspace_crossarm/ST_cube/Final_all_1/Cross_ARM/Src/dma.c" y="58" path="F:/workspace_crossarm/ST_cube/Final_all_1/Cross_ARM/Src/dma.c" left="0" selected="0" name="unnamed" top="37" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Default" x="0" debugPath="F:/workspace_crossarm/ST_cube/Final_all_1/Cross_ARM/Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_adc.c" y="1554" path="F:/workspace_crossarm/ST_cube/Final_all_1/Cross_ARM/Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_adc.c" left="0" selected="0" name="unnamed" top="1602" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Default" x="0" debugPath="F:/workspace_crossarm/ST_cube/Final_all_1/Cross_ARM/Src/i2c.c" y="136" path="F:/workspace_crossarm/ST_cube/Final_all_1/Cross_ARM/Src/i2c.c" left="0" selected="0" name="unnamed" top="0" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Default" x="0" debugPath="F:/workspace_crossarm/ST_cube/Final_all_1/Cross_ARM/Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_dma.c" y="827" path="F:/workspace_crossarm/ST_cube/Final_all_1/Cross_ARM/Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_dma.c" left="0" selected="0" name="unnamed" top="793" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Default" x="0" debugPath="F:/workspace_crossarm/ST_cube/Final_all_1/Cross_ARM/Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_i2c.c" y="3568" path="F:/workspace_crossarm/ST_cube/Final_all_1/Cross_ARM/Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_i2c.c" left="0" selected="0" name="unnamed" top="3551" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Default" x="0" debugPath="F:/workspace_crossarm/ST_cube/Final_all_1/Cross_ARM/Src/stm32f2xx_it.c" y="80" path="F:/workspace_crossarm/ST_cube/Final_all_1/Cross_ARM/Src/stm32f2xx_it.c" left="0" selected="0" name="unnamed" top="61" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Default" x="0" debugPath="F:/workspace_crossarm/ST_cube/Final_all_1/Cross_ARM/Drivers/STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal_def.h" y="62" path="F:/workspace_crossarm/ST_cube/Final_all_1/Cross_ARM/Drivers/STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal_def.h" left="0" selected="0" name="unnamed" top="45" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Default" x="0" debugPath="F:/workspace_crossarm/ST_cube/Final_all_1/Cross_ARM/Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_gpio.c" y="439" path="F:/workspace_crossarm/ST_cube/Final_all_1/Cross_ARM/Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_gpio.c" left="0" selected="0" name="unnamed" top="408" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Default" x="0" debugPath="F:/workspace_crossarm/ST_cube/Final_all_1/Cross_ARM/Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal.c" y="324" path="F:/workspace_crossarm/ST_cube/Final_all_1/Cross_ARM/Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal.c" left="0" selected="0" name="unnamed" top="290" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Default" x="0" debugPath="F:/workspace_crossarm/ST_cube/Final_all_1/Cross_ARM/Src/usart.c" y="116" path="F:/workspace_crossarm/ST_cube/Final_all_1/Cross_ARM/Src/usart.c" left="0" selected="0" name="unnamed" top="40" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Default" x="0" debugPath="F:/workspace_crossarm/ST_cube/Final_all_1/Cross_ARM/Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_uart.c" y="911" path="F:/workspace_crossarm/ST_cube/Final_all_1/Cross_ARM/Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_uart.c" left="0" selected="0" name="unnamed" top="942" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Default" x="0" debugPath="F:/workspace_crossarm/ST_cube/Final_all_1/Cross_ARM/Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.c" y="325" path="F:/workspace_crossarm/ST_cube/Final_all_1/Cross_ARM/Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.c" left="0" selected="0" name="unnamed" top="308" />
+ </Files>
+ <ARMCrossStudioWindow activeProject="Final_all_1 Configuration" autoConnectTarget="Olimex ARM-USB-TINY" debugSearchFileMap="" fileDialogInitialDirectory="" fileDialogDefaultFilter="*.c" autoConnectCapabilities="266111" debugSearchPath="" buildConfiguration="THUMB Debug" />
+</session>

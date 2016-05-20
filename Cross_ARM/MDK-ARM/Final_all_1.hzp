@@ -1,0 +1,52 @@
+<!DOCTYPE CrossStudio_Project_File>
+<solution Name="Final_all_1" target="8" version="2">
+  <project Name="Final_all_1 Configuration" template_name="STM32_EXE">
+    <configuration
+      Name="Common"
+      Target="STM32F207VC"
+      c_preprocessor_definitions="USE_HAL_DRIVER;STM32F207xx"
+      c_user_include_directories="$(TargetsDir)/CMSIS_3/CMSIS/Include;../Inc;../Drivers/STM32F2xx_HAL_Driver/Inc;../Drivers/STM32F2xx_HAL_Driver/Inc/Legacy;../Drivers/CMSIS/Include;../Drivers/CMSIS/Device/ST/STM32F2xx/Include" project_directory=""
+      project_type="Executable" />
+    <folder Name="Source Files">
+      <folder Name="Drivers/STM32F2xx_HAL_Driver">
+        <file file_name="../Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_cortex.c" />
+        <file file_name="../Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_adc_ex.c" />
+        <file file_name="../Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_pwr_ex.c" />
+        <file file_name="../Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_flash_ex.c" />
+        <file file_name="../Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.c" />
+        <file file_name="../Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_dma_ex.c" />
+        <file file_name="../Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_tim_ex.c" />
+        <file file_name="../Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal.c" />
+        <file file_name="../Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_gpio.c" />
+        <file file_name="../Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_flash.c" />
+        <file file_name="../Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_tim.c" />
+        <file file_name="../Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_adc.c" />
+        <file file_name="../Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc_ex.c" />
+        <file file_name="../Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_i2c.c" />
+        <file file_name="../Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_dma.c" />
+        <file file_name="../Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_pwr.c" />
+        <file file_name="../Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_uart.c" />
+      </folder>
+      <folder Name="::CMSIS" />
+      <folder Name="Application/User">
+        <file file_name="../Src/i2c.c" />
+        <file file_name="../Src/dma.c" />
+        <file file_name="../Src/gpio.c" />
+        <file file_name="../Src/tim.c" />
+        <file file_name="../Src/main.c" />
+        <file file_name="../Src/usart.c" />
+        <file file_name="../Src/stm32f2xx_it.c" />
+        <file file_name="../Src/adc.c" />
+        <file file_name="../Src/stm32f2xx_hal_msp.c" />
+      </folder>
+      <folder Name="Drivers/CMSIS">
+        <file file_name="../Drivers/CMSIS/Device/ST/STM32F2xx/Source/Templates/system_stm32f2xx.c" />
+      </folder>
+      <folder Name="Application/MDK-ARM">
+        <file file_name="../Drivers/CMSIS/Device/ST/STM32F2xx/Source/Templates/arm/startup_stm32f207xx.s">
+          <configuration Name="Common" build_exclude_from_build="Yes" />
+        </file>
+      </folder>
+    </folder>
+  </project>
+</solution>
